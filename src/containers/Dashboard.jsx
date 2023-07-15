@@ -1,9 +1,8 @@
 import React from 'react'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
-import DashboardCard from './DashboardCard'
+import DashboardCard from '../components/DashboardCard'
 
 const Dashboard = () => {
-    
     return (
         <ResponsiveMasonry
             columnsCountBreakPoints={{ 350: 1, 750: 1, 900: 1 }}

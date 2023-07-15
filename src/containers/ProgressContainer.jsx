@@ -1,5 +1,5 @@
 import React from 'react'
-import TodoCard from './TodoCard'
+import TodoCard from '../components/TodoCard'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 const ProgressContainer = () => {
     return (
